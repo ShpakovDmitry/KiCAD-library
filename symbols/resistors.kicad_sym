@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "resistor"
+	(symbol "generic resistor"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -159,7 +159,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "resistor_0_1"
+		(symbol "generic resistor_0_1"
 			(rectangle
 				(start -3.175 1.27)
 				(end 3.175 -1.27)
@@ -172,7 +172,7 @@
 				)
 			)
 		)
-		(symbol "resistor_1_1"
+		(symbol "generic resistor_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 1.905)
