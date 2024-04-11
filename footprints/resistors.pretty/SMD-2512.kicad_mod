@@ -165,7 +165,7 @@
 			)
 		)
 	)
-	(model "/home/dmitry/projects/KiCAD-library/3D-models/SMD-RES-2512.step"
+	(model "../../3D-models/SMD-RES-2512.step"
 		(offset
 			(xyz 0 0 0)
 		)
