@@ -10,7 +10,7 @@
 		(in_bom no)
 		(on_board no)
 		(property "Reference" "#PWR"
-			(at 0 -5.588 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,10 +19,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0 -3.81 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -36,7 +37,7 @@
 			)
 		)
 		(property "Datasheet" "Power symbol creates a global label"
-			(at -0.254 -7.112 0)
+			(at -0.254 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,33 +63,33 @@
 				(hide yes)
 			)
 		)
-		(symbol "GND_0_1"
-			(polyline
-				(pts
-					(xy -1.27 -2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "GND_1_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin power_in line
 				(at 0 0 270)
 				(length 0) hide
@@ -117,7 +118,7 @@
 		(in_bom no)
 		(on_board no)
 		(property "Reference" "#PWR"
-			(at -0.254 5.588 0)
+			(at -0.254 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,10 +127,11 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 0 3.556 0)
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 			)
 		)
@@ -143,7 +145,7 @@
 			)
 		)
 		(property "Datasheet" "Power symbol creates a global label"
-			(at -0.254 7.366 0)
+			(at -0.254 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,28 +171,28 @@
 				(hide yes)
 			)
 		)
-		(symbol "VCC_0_1"
+		(symbol "VCC_1_1"
 			(polyline
 				(pts
-					(xy 1.27 2.54) (xy -1.27 2.54)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
 					(type default)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "VCC_1_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 1.27 1.27) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0)
 					(type default)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
