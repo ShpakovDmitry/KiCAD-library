@@ -1,0 +1,3 @@
+.subckt resistor 1 2 rval=100k
+Ra 1 2 {rval}
+.ends
